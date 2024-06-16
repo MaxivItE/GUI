@@ -1,7 +1,6 @@
 from tkinter import *
 import time
 from random import *
-from os import system
 
 class Juego:
     __ventana: object
@@ -16,7 +15,7 @@ class Juego:
         for color in range(self.dificultad):
             color_generado = choice(["green", "red", "yellow", "blue"])
             self.__puntaje[color_generado] += 1
-            print(f"Color nro: {color+1}: {color_generado}")
+            print(f"Color nro: {color + 1}: {color_generado}")
     
     def compararColores(self):
         seguir_jugando:bool = True
@@ -26,16 +25,20 @@ class Juego:
                 seguir_jugando = False
             color_diccionario += 1
         if seguir_jugando != False:
-            print(f"Pasas de Ronda\n Nivel: {self.dificultad}\n\n")
+            print(f"PASAS DE RONDA\n Nivel: {self.dificultad}\n")
             self.dificultad += 1
             self.generarColorAleatorio()
         else:
-            system("cls")
-            print("\n\t\tPERDISTE")
-            self.dificultad = 0
-            seguir_jugando = True
-            self.compararColores.destroy()
-
+            print("\n\tPERDISTE")
+            boton2 = Button(self.__ventana, text = "Comenzar de nuevo", command = self.volverEmpezar).grid(column = 1, row = 3)
+    
+    def volverEmpezar(self):
+        for color in self.puntaje_usuario:
+            self.puntaje_usuario[color] = 0
+        for color in self.__puntaje:
+            self.__puntaje[color] = 0
+        self.dificultad = 1
+        self.generarColorAleatorio()
 
     def ingresarColorVerde(self, evento):
         color = "green"
