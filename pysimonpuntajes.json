@@ -1,0 +1,104 @@
+{
+    "__class__": "GestorJugadores",
+    "partidas": [
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "13:57",
+                "puntaje": 0
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "14:01",
+                "puntaje": 0
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "14:01",
+                "puntaje": 4
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "14:02",
+                "puntaje": 1
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "14:19",
+                "puntaje": 0
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "14:19",
+                "puntaje": 2
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "16:04",
+                "puntaje": 4
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "16:04",
+                "puntaje": 0
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "16:20",
+                "puntaje": 0
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "16:20",
+                "puntaje": 0
+            }
+        },
+        {
+            "__class__": "Jugador",
+            "__datos_partidas__": {
+                "nombre_jugador": "Sin_Nombre",
+                "fecha": "18/06/2024",
+                "hora": "16:20",
+                "puntaje": 0
+            }
+        }
+    ]
+}

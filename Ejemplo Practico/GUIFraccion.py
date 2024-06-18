@@ -51,7 +51,7 @@ class InferazFracciones(tk.Frame):
         tk.Label(self, text = "Resultado:", bg = "#9EDA9E").place(x = 20, y = 115)
 
     def definirFrameWidgets(self):
-        self.ventana_primera_fraccion = tk.Frame(self.__ventana_princial, text = "Algo",bg = "#F1FE4C")
+        self.ventana_primera_fraccion = tk.Frame(self.__ventana_princial, bg = "#F1FE4C")
         self.ventana_primer_entero = tk.Frame(self.ventana_primera_fraccion, background = "#8FD0F1")
         self.ventana_segunda_fraccion = tk.Frame(self.__ventana_princial, bg = "#F1FE4C")
         self.ventana_segundo_entero = tk.Frame(self.ventana_segunda_fraccion, background = "#8FD0F1")
